@@ -1,0 +1,32 @@
+{
+  "id": "d264fb8f-d265-4201-9922-37937fdda76f",
+  "name": "Bonus Registration",
+  "publisher": "mark",
+  "version": "1.0.0.0",
+  "brief": "Extention allows ro register bonuses for customers",
+  "description": "Extention allows ro register bonuses for customers abd generate reports for them.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.google.com/",
+  "logo": "bs.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 65400,
+      "to": 65600
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
