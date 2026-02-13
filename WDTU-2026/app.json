@@ -1,0 +1,32 @@
+{
+  "id": "63cbce06-8d0f-4aee-b539-a03c5712a01b",
+  "name": "WDTU-2026",
+  "publisher": "Marek",
+  "version": "1.0.0.0",
+  "brief": "Vaje s programing with Microsoft Dynamics / Business Central",
+  "description": "Vaje s programing with Microsoft Dynamics / Business Central",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www.google.com",
+  "logo": "bs.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
