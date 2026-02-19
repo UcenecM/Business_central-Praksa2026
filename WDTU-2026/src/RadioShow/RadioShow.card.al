@@ -33,6 +33,8 @@ page 50101 "Radio Show Card"
                 {
                     ApplicationArea = Basic;
                 }
+
+
                 field("Average Listeners"; Rec."Average Listeners")
                 {
                     ApplicationArea = Basic;

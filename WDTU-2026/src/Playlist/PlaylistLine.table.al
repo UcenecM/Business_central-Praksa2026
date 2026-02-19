@@ -16,7 +16,11 @@ table 50103 "Playlist Line"
         }
         field(20; "No."; Code[20])
         {
-
+            TableRelation = IF (Type = const(Resource)) Resource."No."
+            else
+            if (Type = const(show)) "Radio Show"."No."
+            else
+            if (Type = const(Item)) Item."No.";
         }
         field(30; "Data Format"; Option)
         {
@@ -45,7 +49,7 @@ table 50103 "Playlist Line"
     }
     keys
     {
-        key(PK; "Document No.", "Line No.")
+        key(PK; "Document No.")
         {
             Clustered = true;
         }

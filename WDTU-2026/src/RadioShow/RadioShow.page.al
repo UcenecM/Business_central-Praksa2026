@@ -2,6 +2,9 @@ page 50100 "Radio Show List"
 {
     PageType = List;
     SourceTable = "Radio Show";
+    ApplicationArea = Basic;
+    UsageCategory = Lists;
+    CardPageId = "Radio Show Card";
 
     layout
     {
@@ -45,6 +48,16 @@ page 50100 "Radio Show List"
                 {
                     ApplicationArea = Basic;
                 }
+
+            }
+
+        }
+        area(FactBoxes)
+        {
+            part(Fans; "Radio Show Fan Factbox")
+            {
+                ApplicationArea = Basic;
+                SubPageLink = "Radio Show No." = field("No.");
             }
         }
     }

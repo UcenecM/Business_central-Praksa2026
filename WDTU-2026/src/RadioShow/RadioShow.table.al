@@ -31,15 +31,27 @@ table 50100 "Radio Show"
         }
         field(100; "Average Listeners"; Decimal)
         {
-
+            // Editable = false;
+            // FieldClass = FlowField;
+            // CalcFormula = average("Listernership Entry"."Listeners Count"
+            // where("Radio Show No." = field("No."), Date = field("Date Filter")));
         }
         field(110; "Audience Share"; Decimal)
         {
-
+            // Editable = false;
+            // FieldClass = FlowField;
+            // CalcFormula = average("Listernership Entry"."Audience Share"
+            // where("Radio Show No." = field("No."), Date = field("Date Filter")));
         }
         field(120; "Advertising Revenue"; Decimal)
         {
-
+            // Editable = FALSE;
+            // FieldClass = FlowField;
+            // CalcFormula = sum("Radio Show Entry"."Fee Amount"
+            // where(
+            //     "Radio Show No." = field("No."),
+            //     "Data Format" = filter(Advertisment)
+            // ));
         }
         field(130; "Royalty Cost"; Decimal)
         {
@@ -85,8 +97,6 @@ table 50100 "Radio Show"
         {
             FieldClass = FlowFilter;
         }
-
-
     }
 
     keys

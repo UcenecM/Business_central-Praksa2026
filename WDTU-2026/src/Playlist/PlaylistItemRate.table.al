@@ -11,9 +11,13 @@ table 50104 "Playlist Item Rates"
         {
 
         }
-        field(30; "Item No."; Code[20])
+        field(20; "Item No."; Code[20])
         {
-
+            // TableRelation = IF (Type = const (Resource)) Resource."No."
+            // else
+            // IF (Type = const(show)) "Radio Show"."No."
+            // else
+            // if (Type = const(Item)) Item."No.";
         }
         field(40; "Start Time"; Time)
         {
