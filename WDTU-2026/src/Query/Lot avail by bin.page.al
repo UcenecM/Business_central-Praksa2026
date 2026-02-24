@@ -40,10 +40,11 @@ page 50141 "Lot Avail. Bin"
 
     begin
         LotAvail.Open;
-        while LotAvail.Read do begin
+        while LotAvail.Read
+        do begin
             // Init;
-            // "Item No." := LotAvail.Item_No_;
-            // "Location Code" := LotAvail.Location_Code;    Ne Dela, ter nimam pojma
+            // "Item No." := LotAvail.Item_No;
+            // "Location Code" := LotAvail.Location_Code;
             // "Bin Code" := LotAvail.Sum_Quantity;
             // Insert;
         end;
